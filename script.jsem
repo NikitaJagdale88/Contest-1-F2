@@ -8,25 +8,25 @@ let arr = [
 
 function PrintStudentswithMap() {
   //Write your code here , just console.log
-   arr.map(function (value) {
+   arr.map(function (element) {
     if (value.marks > 50) {
-      console.log(value);
+      console.log(element);
     }
   });
 }
 
 function PrintStudentsbyForEach() {
   //Write your code here , just console.log
-   arr.forEach(function (value) {
+   arr.forEach(function (element) {
     if (value.marks > 50) {
-      console.log(value);
+      console.log(element);
     }
   });
 }
 
 function addData() {
   //Write your code here, just console.log
-  arr.push({ id:4,name:"Added Student",age:"20",marks:45 });
+  arr.push({ id:4,name:"Nikita",age:"24",marks:68 });
   console.log(arr);
 
 }
